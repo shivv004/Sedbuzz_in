@@ -209,7 +209,7 @@ export default function Main() {
   return(
     <>
       <Helmet>
-        <title>SedBuzz – Your Source for the Latest Buzz! | Technology |  Gaming | Science</title> 
+        <title>SedBuzz – Your Source for the Latest Buzz! | Technology | Gaming | Science</title> 
         <meta property="og:site_name" content="sedbuzz"/>
         <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/sedbuzz-7b0dd.appspot.com/o/public%2Ffavicon.png?alt=media&token=3dc3cdc6-28dc-427e-95a9-654983d55055"/>
         <meta property="og:type" content="article"/>
