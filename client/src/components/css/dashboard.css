@@ -1,0 +1,670 @@
+@media screen and (min-width: 1025px){
+    .dashboard-cover{
+        min-height: 100vh;
+        background-color: #e9e9e9;
+    }
+    .dashboard{
+        max-width: 1600px;
+        min-height: 100vh;
+        margin: 0 auto;
+        display: flex;
+        padding-top: 31px;
+    }
+    .DashSideBar{
+        width: 20%;
+        min-height: 700px;
+        background-color: #e9e9e9;
+        box-shadow: rgba(0, 0, 0, 0.35) 6px 0px 11px -3px;
+        z-index: 1;
+        position: sticky;
+    }
+    .DashSideBarGroup{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        background-color: #e9e9e9;
+        position: sticky;
+        top: 71.1px;
+    }
+    .DashSideBarItem{
+        display: flex;
+        height: 3.5vw;
+        min-height: 45px;
+        max-height: 55px;
+        transition: all 0.15s ease-in-out;
+    }
+    .DashSideBarItem.active{
+        background-color: #d3d3d3;
+        transition: all 0.15s ease-in-out;
+    }
+    .DashSideBarItem:hover{
+        background-color: #d3d3d3;
+        transition: all 0.15s ease-in-out;
+    }
+    .DashSideBarItem span{
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+    .DashDashboard{
+        background-color: #f3f3f3;
+        width: 80%;
+        padding: 4rem 3rem;
+    }
+    .DashProfile{
+        display: flex;
+        flex-direction: column;
+        background-color: #f3f3f3;
+        width: 80%;
+        padding: 4rem 20rem;
+        align-items: center;
+    }
+    .DashProfile form{
+        width: 500px;
+    }
+    .DashProfile h3{
+        width: 500px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 550;
+        margin-bottom: 0.5rem;
+    }
+    .DashProfile img{
+        border-radius: 50%;
+        height: 130px;
+        margin: 1.5rem auto;
+    }
+    #change-profile-pic{
+        opacity: 0;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        border-radius: 50%;
+        width: 100%;
+        height: 130px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 15px;
+        top: 0;
+        left: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .user-img{
+        max-width: 130px;
+        max-height: 130px;
+        min-width: 130px;
+        min-height: 130px;
+    }
+    .user-img img{
+        object-fit: cover;
+        width: 100%;
+    }
+    .user-img input{
+        padding: 0 !important;
+        height: 0 !important;
+        width: 0 !important;
+        display: none;
+    }
+    .user-img svg{
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        background-color: #00000083 !important;
+        border-radius: 50%;
+    }
+    #change-profile-pic:hover{
+        transition: opacity 0.3s ease-in-out;
+        opacity: 0.6;
+    }
+    .DashProfile p{
+        font-family: 'Roboto Condensed', sans-serif;
+        color:#4a4a4a;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    }
+    .DashProfile input{
+        width: 500px;
+        height: 48px;
+        border: 1px solid #aeaeae;
+        border-radius: 0;
+        padding: 0 12px;
+        margin-bottom: 1rem;
+        transition: border 0.3s ease-in-out;
+    }
+    .DashProfile input:focus{
+        border: 1px solid #000000;
+        transition: border 0.3s ease-in-out;
+    }
+    .DashProfile .sedbtn{
+        border: 1px solid #1d1818;
+        width: 500px;
+        font-size: 14px;
+    }
+    .DashProfile #delete-acc{
+        text-align: left;
+        color: #da3633;
+        margin-top: 10px;
+        width: 500px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    #profile-alert, #profile-alert2, #profile-alert3, #profile-alert4{
+        width: 500px;
+        margin: 1rem 0;
+        padding: 0.6rem 1rem;
+        display: none;
+    }
+    .DashProfile #about{
+        width: 500px;
+        height: 180px;
+        border: 1px solid #aeaeae;
+        border-radius: 0;
+        padding: 8px 12px;
+        margin-bottom: 1rem;
+        transition: border 0.3s ease-in-out;
+        resize: none;
+    }
+    .DashProfile #about:focus{
+        border: 1px solid #000000;
+        transition: border 0.3s ease-in-out;
+    }
+    .DashPosts{
+        background-color: #f3f3f3;
+        width: 80%;
+        padding: 4rem 2.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .DashPosts h3{
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 550;
+        margin-bottom: 0.5rem;
+    }
+    .DashPosts table, th, td{
+        border: 1px solid #000000;
+        border-collapse: collapse;
+        width: 100%;
+        height: auto;
+    }
+    .DashPosts th, td{
+        width: max-content;
+        padding: 1rem 1rem;
+        text-wrap: nowrap;
+    }
+    .DashPosts th{
+        background-color: #1d1818;
+        color: #ffffff;
+        border-right: #ffffff 1px solid;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+    .DashPosts td{
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px !important;
+        background-color: #ffffff;
+        text-align: center;
+    }
+    #post-title-td{
+        text-wrap: wrap;
+    }
+    .DashPosts #post-show-more{
+        width:150px;
+        align-self: center;
+        margin-top: 1.5rem;
+    }
+    .DashPosts #create-new-post-btn{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin: 2rem 0 5.5rem 0;
+    }
+    .DashPosts #new-post-img{
+        width: max-content;
+        max-height: 100px;
+        text-align: center;
+        align-self: center;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+    }
+    .DashUsers{
+        background-color: #f3f3f3;
+        width: 80%;
+        padding: 4rem 2.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .DashUsers h3{
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 550;
+        margin-bottom: 2rem;
+    }
+    .DashUsers table, th, td{
+        border: 1px solid #000000;
+        border-collapse: collapse;
+        width: 100%;
+        height: auto;
+    }
+    .DashUsers th, td{
+        width: max-content;
+        padding: 1rem 1rem;
+        text-wrap: nowrap;
+    }
+    .DashUsers th{
+        background-color: #1d1818;
+        color: #ffffff;
+        border-right: #ffffff 1px solid;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+    .DashUsers td{
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px !important;
+        background-color: #ffffff;
+        text-align: center;
+    }
+    .DashUsers #user-show-more{
+        width:150px;
+        align-self: center;
+        margin-top: 1.5rem;
+    }
+    .DashComments{
+        background-color: #f3f3f3;
+        width: 80%;
+        padding: 4rem 2.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .DashComments h3{
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 550;
+        margin-bottom: 2rem;
+    }
+    .DashComments table, th, td{
+        border: 1px solid #000000;
+        border-collapse: collapse;
+        width: 100%;
+        height: auto;
+    }
+    .DashComments th, td{
+        width: max-content;
+        padding: 1rem 1rem;
+        text-wrap: nowrap;
+    }
+    .DashComments th{
+        background-color: #1d1818;
+        color: #ffffff;
+        border-right: #ffffff 1px solid;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+    .DashComments td{
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px !important;
+        background-color: #ffffff;
+        text-align: center;
+    }
+    .DashComments #comments-show-more{
+        width:150px;
+        align-self: center;
+        margin-top: 1.5rem;
+    }
+}
+@media screen and (max-width: 1025px){
+    .dashboard-cover{
+        min-height: 100vh;
+        background-color: #e9e9e9;
+    }
+    .dashboard{
+        max-width: 1600px;
+        min-height: 100vh;
+        margin: 0 auto;
+        display: flex;
+        padding-top: 24px;
+    }
+    .DashSideBar{
+        width: 50px;
+        min-height: 700px;
+        background-color: #e9e9e9;
+        box-shadow: rgba(0, 0, 0, 0.35) 6px 0px 11px -3px;
+        z-index: 1;
+        position: sticky;
+    }
+    .DashSideBarGroup{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        background-color: #e9e9e9;
+        position: sticky;
+        top: 63.6px;
+    }
+    .DashSideBarItem{
+        display: flex;
+        height: 4vw;
+        min-height: 45px;
+        overflow: hidden;
+        transition: all 0.15s ease-in-out;
+    }
+    .DashSideBarItem.active{
+        background-color: #d3d3d3;
+        transition: all 0.15s ease-in-out;
+    }
+    .DashSideBarItem span{
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+    .DashSideBarItem svg{
+        margin-right: 10rem !important;
+    }
+    .DashDashboard{
+        background-color: #f3f3f3;
+        width: 100%;
+        padding: 4rem 3rem;
+    }
+    .DashProfile{
+        display: flex;
+        flex-direction: column;
+        background-color: #f3f3f3;
+        width: 100%;
+        padding: 4rem 2rem;
+        align-items: center;
+    }
+    .DashProfile form{
+        width: 100%;
+        max-width: 500px;
+    }
+    .DashProfile h3{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size:35px;
+        font-weight: 550;
+        margin-bottom: 0.5rem;
+    }
+    .DashProfile img{
+        border-radius: 50%;
+        height: 130px;
+        margin: 1.5rem auto;
+    }
+    #change-profile-pic{
+        opacity: 0.6;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+        border-radius: 50%;
+        width: 100%;
+        height: 130px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 15px;
+        top: 0;
+        left: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .user-img{
+        max-width: 130px;
+        max-height: 130px;
+        min-width: 130px;
+        min-height: 130px;
+    }
+    .user-img img{
+        object-fit: cover;
+        width: 100%;
+    }
+    .user-img input{
+        padding: 0 !important;
+        height: 0 !important;
+        width: 0 !important;
+        display: none;
+    }
+    .user-img svg{
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        background-color: #00000083 !important;
+        border-radius: 50%
+    }
+    .DashProfile p{
+        width: 100%;
+        font-family: 'Roboto Condensed', sans-serif;
+        color:#4a4a4a;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    }
+    .DashProfile input{
+        width: 100%;
+        height: 48px;
+        border: 1px solid #aeaeae;
+        border-radius: 0;
+        padding: 0 12px;
+        margin-bottom: 1rem;
+        transition: border 0.3s ease-in-out;
+    }
+    .DashProfile input:focus{
+        border: 1px solid #000000;
+        transition: border 0.3s ease-in-out;
+    }
+    .DashProfile .sedbtn{
+        width: 100%;
+        border: 1px solid #1d1818;
+        font-size: 14px;
+    }
+    .DashProfile #delete-acc{
+        text-align: left;
+        color: #da3633;
+        margin-top: 10px;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 500;
+        max-width: 500px;
+    }
+    #profile-alert, #profile-alert2, #profile-alert3, #profile-alert4{
+        width: 100%;
+        max-width: 500px;
+        margin: 1rem 0;
+        padding: 0.6rem 1rem;
+        display: none;
+    }
+    .DashProfile #about{
+        width: 100%;
+        height: 180px;
+        border: 1px solid #aeaeae;
+        border-radius: 0;
+        padding: 8px 12px;
+        margin-bottom: 1rem;
+        transition: border 0.3s ease-in-out;
+        resize: none;
+    }
+    .DashProfile #about:focus{
+        border: 1px solid #000000;
+        transition: border 0.3s ease-in-out;
+    }
+    .DashPosts{
+        background-color: #f3f3f3;
+        width: 100%;
+        padding: 4rem 1rem 2rem 1rem;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+    }
+    .DashPosts h3{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size:35px;
+        font-weight: 550;
+        margin-bottom: 0.5rem;
+    }
+    .DashPosts #post-table{
+        align-self: center;
+        width: 78vw;
+        overflow-x: scroll;
+        border: 1px solid #c4c4c4;
+    }
+    .DashPosts table, th, td{
+        border: 1px solid #000000;
+        border-collapse: collapse;
+        width: 100%;
+        height: auto;
+    }
+    .DashPosts th, td{
+        width: max-content;
+        padding: 10px 15px;
+        text-wrap: nowrap;
+    }
+    .DashPosts th{
+        background-color: #1d1818;
+        color: #ffffff;
+        border-right: #ffffff 1px solid;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+    .DashPosts td{
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px !important;
+        background-color: #ffffff;
+        text-align: center;
+    }
+    #post-title-td{
+        text-wrap: wrap;
+    }
+    .DashPosts #post-show-more{
+        width:150px;
+        margin-top: 1.5rem;
+        align-self: center;
+    }
+    .DashPosts #create-new-post-btn{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0 4.5rem 0;
+        align-self: center;
+    }
+    .DashPosts #new-post-img{
+        max-height: 100px;
+        align-self: center;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+    }
+    .DashUsers{
+        background-color: #f3f3f3;
+        width: 100%;
+        padding: 4rem 1rem 2rem 1rem;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+    }
+    .DashUsers #user-table{
+        align-self: center;
+        width: 78vw;
+        overflow-x: scroll;
+        border: 1px solid #c4c4c4;
+    }
+    .DashUsers table, th, td{
+        border: 1px solid #000000;
+        border-collapse: collapse;
+        width: 100%;
+        height: auto;
+    }
+    .DashUsers th, td{
+        width: max-content;
+        padding: 10px 15px;
+        text-wrap: nowrap;
+    }
+    .DashUsers th{
+        background-color: #1d1818;
+        color: #ffffff;
+        border-right: #ffffff 1px solid;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+    .DashUsers td{
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px !important;
+        background-color: #ffffff;
+        text-align: center;
+    }
+    .DashUsers h3{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size:35px;
+        font-weight: 550;
+        margin-bottom: 2rem;
+    }
+    .DashUsers #user-show-more{
+        width:150px;
+        margin-top: 1.5rem;
+        align-self: center;
+    }
+    .DashComments{
+        background-color: #f3f3f3;
+        width: 100%;
+        padding: 4rem 1rem 2rem 1rem;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+    }
+    .DashComments #comments-table{
+        align-self: center;
+        width: 78vw;
+        overflow-x: scroll;
+        border: 1px solid #c4c4c4;
+    }
+    .DashComments table, th, td{
+        border: 1px solid #000000;
+        border-collapse: collapse;
+        width: 100%;
+        height: auto;
+    }
+    .DashComments th, td{
+        width: max-content;
+        padding: 10px 15px;
+        text-wrap: nowrap;
+    }
+    .DashComments th{
+        background-color: #1d1818;
+        color: #ffffff;
+        border-right: #ffffff 1px solid;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+    .DashComments td{
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px !important;
+        background-color: #ffffff;
+        text-align: center;
+    }
+    .DashComments h3{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size:35px;
+        font-weight: 550;
+        margin-bottom: 2rem;
+    }
+    .DashComments #comments-show-more{
+        width:150px;
+        margin-top: 1.5rem;
+        align-self: center;
+    }
+}

@@ -1,0 +1,280 @@
+@media screen and (min-width: 1150px){
+    .signin, .signup{
+        height: 100vh;
+        min-height: 700px;
+    }
+    .signin-side-img, .signup-side-img{
+        width:43.5%;
+        overflow: hidden;
+        position: relative;
+    }
+    .signin-side-img img, .signup-side-img img{
+        width: 100%;
+        object-fit: cover;
+        height: 100vh;
+        min-height: 700px;
+    }
+    .signin-container{
+        margin: 140px 100px 80px 123px;
+        width: 455.8;
+    }
+    .signup-container{
+        margin: 110px 100px 0 123px;
+        width: 455.8;
+    }
+    .signin-container h1, .signup-container h1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        font-weight: 550;
+        margin-bottom: 1.5rem;
+        margin-left: -2px;
+        width: 470px;
+    }
+    .signin-container p, .signup-container p{
+        font-family: 'Roboto Condensed', sans-serif;
+        color:#4a4a4a;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    }
+    .signin-container input, .signup-container input{
+        width: 100%;
+        height: 48px;
+        border: 1px solid #aeaeae;
+        border-radius: 0;
+        padding: 0 12px;
+        margin-bottom: 1rem;
+        transition: border 0.3s ease-in-out;
+    }
+    .signin-container input:focus, .signup-container input:focus{
+        border: 1px solid #000000;
+        transition: border 0.3s ease-in-out;
+    }
+    .signin-container hr, .signup-container hr{
+        width: 100%;
+    }
+    .signin-container .sedbtn, .signup-container .sedbtn{
+        border: 1px solid #1d1818;
+        width: 100%;
+        font-size: 14px;
+    }
+    .signin-container .google-btn, .signup-container .google-btn{
+        border: 1px solid #1d1818;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 550;
+        height:48px;
+        width: 100%;
+        font-size: 13.5px;
+        margin-bottom: 0.5rem;
+    }
+    #sign-bot-text, #sign-bot-text a{
+        font-family: 'Poppins', sans-serif;
+        font-size: 12.5px;
+        font-weight: 500;
+        color: #333333;
+    }
+    #sign-bot-text a{
+        color: #057dbc;
+    }
+    #signup-alert, #signin-alert, #signup-complete-alert{
+        display: none;
+        padding: 0.5rem 1rem;
+        margin: 1rem 0;
+        max-width: 470px;
+    }
+    #sign-img-credit{
+        position: absolute;
+        border-radius: 4px;
+        bottom: 0.25rem;
+        right: 0.5rem;
+        color: #c2c2c2;
+        font-family: 'Lato', sans-serif;
+        font-size: 9px;
+        padding: 0.15rem 0.35rem;
+        background-color: #00000036;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1150px){
+    .signin, .signup{
+        height: 100vh;
+        min-height: 700px;
+    }
+    .signin-side-img, .signup-side-img{
+        position: relative;
+        width:40%;
+        overflow: hidden;
+    }
+    .signin-side-img img, .signup-side-img img{
+        width: 100%;
+        object-fit: cover;
+        height: 100vh;
+        min-height: 700px;
+    }
+    .signin-container{
+        margin: 120px 100px 80px 123px;
+        width: 40%;
+    }
+    .signup-container{
+        margin: 110px 100px 80px 123px;
+        width: 40%;
+    }
+    .signin-container h1, .signup-container h1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        font-weight: 550;
+        margin-bottom: 2rem;
+        margin-left: -2px;
+    }
+    .signup-container h1{
+        text-wrap: nowrap;
+    }
+    .signin-container p, .signup-container p{
+        font-family: 'Roboto Condensed', sans-serif;
+        color:#4a4a4a;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    }
+    .signin-container input, .signup-container input{
+        width: 100%;
+        height: 48px;
+        border: 1px solid #aeaeae;
+        border-radius: 0;
+        padding: 0 12px;
+        margin-bottom: 1rem;
+        transition: border 0.3s ease-in-out;
+    }
+    .signin-container input:focus, .signup-container input:focus{
+        border: 1px solid #000000;
+        transition: border 0.3s ease-in-out;
+    }
+    .signin-container hr, .signup-container hr{
+        width: 100%;
+    }
+    .signin-container .sedbtn, .signup-container .sedbtn{
+        width: 100%;
+        font-size: 14px;
+        border: 1px solid #1d1818;
+    }
+    .signin-container .google-btn, .signup-container .google-btn{
+        border: 1px solid #1d1818;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 550;
+        height:48px;
+        width: 100%;
+        font-size: 13.5px;
+        margin-bottom: 1rem;
+    }
+    #sign-bot-text, #sign-bot-text a{
+        font-family: 'Poppins', sans-serif;
+        font-size: 12.5px;
+        font-weight: 500;
+        color: #333333;
+    }
+    #sign-bot-text a{
+        color: #057dbc;
+    }
+    #signup-alert, #signin-alert, #signup-complete-alert{
+        display: none;
+        padding: 0.5rem 1rem;
+        margin: 1rem 0;
+    }
+    #sign-img-credit{
+        position: absolute;
+        border-radius: 4px;
+        bottom: 0.25rem;
+        right: 0.5rem;
+        color: #c2c2c2;
+        font-family: 'Lato', sans-serif;
+        font-size: 9px;
+        padding: 0.15rem 0.35rem;
+        background-color: #00000036;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .signin, .signup{
+        height: 100vh;
+        min-height: 700px;
+        justify-content: center;
+    }
+    .signin-side-img, .signup-side-img{
+        display: none;
+    }
+    .signin-container{
+        width: 80%;
+        max-width: 500px;
+        margin: 130px 50px 80px 50px;
+    }
+    .signup-container{
+        width: 80%;
+        max-width: 500px;
+        margin: 100px 50px 80px 50px;
+    }
+    .signin-container h1, .signup-container h1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 35px;
+        font-weight: 550;
+        margin-bottom: 2rem;
+        margin-left: -2px;
+    }
+    .signin-container p, .signup-container p{
+        font-family: 'Roboto Condensed', sans-serif;
+        color:#4a4a4a;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    }
+    .signin-container input, .signup-container input{
+        width: 100%;
+        height: 48px;
+        border: 1px solid #aeaeae;
+        border-radius: 0;
+        padding: 0 12px;
+        margin-bottom: 1rem;
+        transition: border 0.3s ease-in-out;
+    }
+    .signin-container input:focus, .signup-container input:focus{
+        border: 1px solid #000000;
+        transition: border 0.3s ease-in-out;
+    }
+    .signin-container hr, .signup-container hr{
+        width: 100%;
+    }
+    .signin-container .sedbtn, .signup-container .sedbtn{
+        width: 100%;
+        font-size: 14px;
+        border: 1px solid #1d1818;
+    }
+    .signin-container .google-btn, .signup-container .google-btn{
+        border: 1px solid #1d1818;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 550;
+        height:48px;
+        width: 100%;
+        font-size: 13.5px;
+        margin-bottom: 1rem;
+    }
+    #sign-bot-text, #sign-bot-text a{
+        font-family: 'Poppins', sans-serif;
+        font-size: 12.5px;
+        font-weight: 500;
+        margin-top: 20px;
+        color: #333333;
+    }
+    #sign-bot-text a{
+        color: #057dbc;
+    }
+    #signup-alert, #signin-alert, #signup-complete-alert{
+        display: none;
+        padding: 0.5rem 1rem;
+        margin: 1rem 0;
+    }
+}
