@@ -759,7 +759,7 @@ export default function Portfolio() {
       <div className="portfolio-cover">
         <div className="my-portfolio">
           <div className="portfolio-top">
-            <Spline scene="https://prod.spline.design/bI1j2dPEK-7agLEh/scene.splinecode" />
+            <Spline id="spline" scene="https://prod.spline.design/bI1j2dPEK-7agLEh/scene.splinecode" />
             <div className="introduction">
               <h3>
                 Shiv Shankar
@@ -773,7 +773,7 @@ export default function Portfolio() {
               </h4>
               <p>I am an enthusiastic and adaptable individual, constantly seeking out fresh challenges to tackle. Fueled by a fervent passion for continuous learning, I am committed to delivering excellence in every project I undertake. Armed with a positive outlook and a steadfast growth mindset, I am poised to make a substantial impact and accomplish remarkable feats.</p>
               <div className="buttons">
-                <a href="https://drive.google.com/file/d/1sM8htFShXhZxhs4_G9hQGxiZcuDkFbha/view?usp=sharing" target="_blank" rel="noreferrer"><button className="r-btn">Check Resume</button></a>
+                <a href="https://docs.google.com/document/d/1IRMe6VSAk4qKhj8_1R8O4mK_P3T-mlcnCvbzUErkcqI" target="_blank" rel="noreferrer"><button className="r-btn">Check Resume</button></a>
                 <a href="https://github.com/shivv004" target="_blank" rel="noreferrer"><button className="g-btn">Github</button></a>
               </div>
             </div>
@@ -1003,6 +1003,27 @@ export default function Portfolio() {
               <h3>Projects</h3>
               <p>I've dedicated myself to a handful of projects that showcase my versatility across different technologies. Here are some of my projects.</p>
               <div className="project-list">
+              <a href="https://www.car-rento.wuaze.com" target="_blank" rel="noreferrer">
+                  <div className="project-items">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/sedbuzz-7b0dd.appspot.com/o/public%2Fportfolio%2Fcr.png?alt=media&token=e52cb8eb-94f9-4c6f-9c95-a876ca4d0ac0" alt="logo" />
+                    <div className="project-sec1">
+                      <span>PHP</span>
+                      <span>HTML5</span>
+                      <span>CSS</span>
+                      <span>JavaScript</span>
+                      <span>MySQL</span>
+                      <span>Bootstrap</span>
+                    </div>
+                    <div className="project-sec2">
+                      <div className="project-details">
+                        <div className="project-name">CarRento - Car Rental Platform</div>
+                        <div className="project-date">March 2024 - March 2024</div>
+                        <div className="project-para">Created a car rental app using Core PHP and MySQL, allowing users and agencies to register, book cars, and manage listings. Designed frontend with HTML, CSS, JS, and Bootstrap for user-friendly experience. Enabled seamless booking process and agency management for enhanced usability and efficiency.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
                 <a href="https://www.sedbuzz.com" target="_blank" rel="noreferrer">
                   <div className="project-items">
                     <img src="https://firebasestorage.googleapis.com/v0/b/sedbuzz-7b0dd.appspot.com/o/public%2Fportfolio%2Fsb.png?alt=media&token=42161a03-7d3e-4f4f-a64f-0c177c1bba24" alt="logo" />
@@ -1021,35 +1042,12 @@ export default function Portfolio() {
                     </div>
                     <div className="project-sec2">
                       <div className="project-details">
-                        <div className="project-name">SedBuzz</div>
+                        <div className="project-name">SedBuzz - Blog</div>
                         <div className="project-date">Dec 2023 - Feb 2024</div>
                         <div className="project-para">Developed a responsive MERN stack dynamic blog project named "SedBuzz".
                         Implemented a robust user authentication system with login and signup functionalities, ensuring secure access and personalised features for individual users/admins.
                         Designed and integrated an admin login system, streamlining the post-publishing process through automation. 
                         Utilised Tailwind CSS to achieve a visually appealing and responsive design.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <a href="https://github.com/shivv004/PGLife" target="_blank" rel="noreferrer">
-                  <div className="project-items">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/sedbuzz-7b0dd.appspot.com/o/public%2Fportfolio%2Fpl.png?alt=media&token=f082ff4e-0113-4b81-a648-2f890121b948" alt="logo" />
-                    <div className="project-sec1">
-                      <span>PHP</span>
-                      <span>JavaScript</span>
-                      <span>HTML5</span>
-                      <span>CSS</span>
-                      <span>Bootstrap</span>
-                      <span>MySQL</span>
-                      <span>Git</span>
-                    </div>
-                    <div className="project-sec2">
-                      <div className="project-details">
-                        <div className="project-name">PGLife</div>
-                        <div className="project-date">May 2022 - July 2022</div>
-                        <div className="project-para">Implemented PHP for server-side scripting, enabling dynamic content generation and interaction with databases and user-friendly login/signup system.
-                        Leveraged Bootstrap to enhance the website's responsiveness and streamline the development process. 
                         </div>
                       </div>
                     </div>
@@ -1189,7 +1187,7 @@ export default function Portfolio() {
                   <div className="edu-right">
                     <div className="edu-details">
                       <div className="edu-details-sec-1">
-                        <img src="/pf/dav.png" alt="logo" style={{backgroundColor:`#ffffff`}}/>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/sedbuzz-7b0dd.appspot.com/o/public%2Fportfolio%2Fdav.png?alt=media&token=9d2ad9cf-b451-4f5c-af6b-1b7ef96b6b27" alt="logo" style={{backgroundColor:`#ffffff`}}/>
                         <div className="edu-title">
                           <div className="edu-title-head">D.A.V. Public School, Patna</div>
                           <div className="edu-title-name">CBSC(X), Science with Computer</div>

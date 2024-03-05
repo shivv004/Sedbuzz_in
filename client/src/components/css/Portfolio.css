@@ -1162,15 +1162,14 @@
         margin: 0 auto;
         max-width: 1600px;
         min-height: 90vh;
+        padding-top: 200px;
         /* padding: 150px 6rem; */
     }
     .portfolio-top{
         position: relative;
     }
-    .portfolio-top canvas{
-        margin-top: -130px;
-        width: 165vw !important;
-        height: 165vw !important;
+    #spline{
+        display: none;
     }
     .portfolio-top div{
         display: flex;
@@ -1181,7 +1180,6 @@
         z-index: 5 !important;
         height: 100vh;
         min-height: 702px;
-        margin-top: -500px;
         padding: 0 7% 0 7%;
         flex-direction: column;
         justify-content: flex-start !important;
@@ -1742,13 +1740,13 @@
         max-width: 1600px;
         min-height: 90vh;
         /* padding: 150px 6rem; */
+        padding-top: 400px;
     }
     .portfolio-top{
         position: relative;
     }
-    .portfolio-top canvas{
-        width: 170vw !important;
-        height: 170vw !important;
+    #spline{
+        display: none;
     }
     .portfolio-top div{
         display: flex;
